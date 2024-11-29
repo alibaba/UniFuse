@@ -72,7 +72,7 @@ The pre-trained models of UniFuse for 4 datasets are available, [Matterport3D](h
 #### Test on a pre-trained model
 
 ```
-python evaluate.py  --data_path $DATA_PATH --dataset matterport3d --load_weights_folder $MODEL_PATH 
+python evaluate.py  --data_path $DATA_PATH --dataset matterport3d --load_weights_dir $MODEL_PATH 
 ```
 
 
